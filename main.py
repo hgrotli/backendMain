@@ -75,7 +75,7 @@ def upload():
             print(MyContact)
 
             # Trigger an update request to the cache server
-        cache_url = "http://localhost:5555/update_cache"
+        cache_url = "https://asi2-cache2.onrender.com/update_cache"
         response = requests.get(cache_url)
         return jsonify({"message": MyData})
 
