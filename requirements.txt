@@ -9,6 +9,6 @@ Flask-Cors
 vobject
 pymongo
 certifi
-bson
+bson==0.5.10
 requests
 
