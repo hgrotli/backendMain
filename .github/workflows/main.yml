@@ -26,7 +26,8 @@ jobs:
           python -m pip install --upgrade pip
           pip uninstall -y pymongo bson
           pip install -r requirements.txt
+          pip install pytest
 
       - name: Run pytest
         run: |
-          pytest main.py
+          pytest test_main.py
